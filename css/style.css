@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background: #c0c0c0;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 3vw;
+  position: relative;
+  overflow: hidden;
+  background: #000;
+}
+header .logo a {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+header .logo a img {
+  width: 3vw;
+  margin: 0px 20px;
+}
+header .logo a h1 {
+  font-size: 40px;
+  line-height: 3vw;
+  font-family: "Bruno Ace SC", cursive;
+}
+header .navbar {
+  font-size: 25px;
+  display: flex;
+  font-family: "Bebas Neue", cursive;
+}
+header .navbar > li {
+  line-height: 3vw;
+}
+header .navbar > li > a {
+  display: block;
+  width: 120px;
+  position: relative;
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+}
+header .navbar > li > a:hover {
+  background: #fff;
+  color: #000;
+}
+header .navinfo {
+  position: absolute;
+  left: 10%;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  background-color: #746f6f;
+  z-index: 99;
+}
+header .navinfo li {
+  width: 300px;
+  margin: 20px 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+header .navinfo li h3 {
+  border-bottom: 2px solid #fff;
+}
+header .login {
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+}
+header .login i {
+  line-height: 3vw;
+  margin: 0px 20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  max-height: 60vh;
+  justify-content: space-evenly;
+  background-color: black;
+  border-top: 1px solid white;
+  padding: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+footer .wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .wrap img {
+  width: 6vw;
+  height: 6vw;
+  margin: 10px 20px;
+}
+footer .wrap h1 {
+  font-size: 2.5rem;
+}
+footer .wrap p {
+  font-size: 20px;
+}
+footer .wrap nav {
+  width: 30%;
+  text-align: center;
+}
+footer .wrap nav ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer .wrap nav ul li {
+  margin-bottom: 10px;
+}
+footer .wrap nav ul li a {
+  font-weight: 600;
+  font-size: 1.5rem;
+  flex-basis: 100px;
+}
+footer .wrap .bigpic {
+  width: 15vw;
+  height: 15vw;
+  background-image: url("../images/footer.jpg");
+  background-position: center;
+  background-size: cover;
+}
+footer .wrap .links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+footer .wrap .links .wrap {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+footer .wrap .links .wrap i {
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */
